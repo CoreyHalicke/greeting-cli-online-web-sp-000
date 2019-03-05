@@ -5,5 +5,9 @@ require_relative '../lib/greeting.rb'
 
 puts "Hi! I'm HAL, what's your name?"
 
+<<<<<<< HEAD
 name = gets
+=======
+name = gets.strip
+>>>>>>> 72f5bc8780180cb384faa38eea897b699a8d2a43
 greeting(name)
